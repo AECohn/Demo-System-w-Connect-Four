@@ -2,14 +2,14 @@ using Crestron.SimplSharp;                              // For Basic SIMPL# Clas
 using Crestron.SimplSharpPro;                       	// For Basic SIMPL#Pro classes
 using Crestron.SimplSharpPro.CrestronThread;        	// For Threading
 using Crestron.SimplSharpPro.DeviceSupport;
+using Crestron.SimplSharpPro.Diagnostics;
+using Crestron.SimplSharpPro.DM.Streaming;
 using Crestron.SimplSharpPro.UI;
 using System;
 using System.Timers;
 
 namespace _4_Series_Processor_Template
 {
-
-    //testing testing...
     public class ControlSystem : CrestronControlSystem
     {
         public static Tsw1060 Touchpanel;
